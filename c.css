@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(243, 237, 200);
+}
+.container{
+    background-color: rgb(235, 217, 174);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 40vh;
+}
+form{
+    margin: 2rem,0,2rem,0;
+}
+form input{
+    border: 1px solid lightgrey;
+}
+form select,button,input{
+    width: 100%;
+    outline: none; /*Select krne pr no outline */
+    border: none;/* Normally jo line h woh nhi dikhega */
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+.from select{
+    height: 1rem;
+    
+}
+.to select
+{
+    height: 1rem;
+}
+.drop-down{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.to{
+    margin-left: 2.5rem;
+}
+.select-container img{
+    max-width: 1.75rem;
+    display: flex;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+}
+.msg{
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+
+}
+.Bottom{
+    margin-top: 0.5rem;
+}
+.Bottom button{
+    color: white;
+    font-size: 1rem;
+    background-color:rgb(131, 48, 140);
+    cursor: pointer;
+}
+.msg{
+    /* display:none ; */
+}
